@@ -5,6 +5,7 @@
 }
   
 :root {
+    font-size: calc(15px + 0.390625vw);
     --header-height: 75px;
     --footer-height: 50px;
   
@@ -15,4 +16,20 @@
     --accent-1: #ff5555;
     --accent-2: #50fa7b;
 }
-  
+
+@media (prefers-color-scheme: light) {
+:root {
+    --dark: #d4d3d3;
+    --medium: #b3b3ae;
+    --light: #f8f8f2;
+    --contrast-text: #282a36;
+    --accent-1: #ce4646;
+    --accent-2: #2c783f;
+}
+}
+
+/* @media (min-width: 600px) {
+    :root {
+        font-size: calc(15px + 0.390625vw);
+    }
+  } */

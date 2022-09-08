@@ -25,3 +25,10 @@
   top: 15px;
   right: 15px;
 }
+
+@media (min-width: 600px) {
+  .article__svg {
+    top: unset;
+    bottom: 15px;
+  }
+}
